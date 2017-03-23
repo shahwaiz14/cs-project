@@ -1,0 +1,64 @@
+* {
+	font-family: sans-serif;
+}
+
+h1{
+	text-align: center;
+	color: #DC143C;
+}
+ul.top {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+}
+
+li.tab{
+	float: left;
+}
+
+div.bar li.tab a{
+    display: block;
+    float:left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: auto;
+}
+
+div.bar li.tab a:hover {
+    background-color: #111;
+}
+
+h1{
+	font-size: 40px
+	text-align: center;
+	padding: 7px 10px 10px 10px
+	border-width: 2px;
+}
+
+#money{
+	text-align: right
+}
+
+th{
+	text-transform: uppercase;
+	border-bottom: 2px solid #111111;
+	border-top: 1px solid #999
+	font-size: 88%;
+}
+
+tr.odd{
+	background-color: #efefef
+}
+
+td{
+	width: 600px;
+}
+
+th, td{
+	padding: 7px 10px 10px 10px;
+
+}

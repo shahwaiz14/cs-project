@@ -1,0 +1,48 @@
+body{
+	/*border: 2px double #000;*/   
+	background-color:#4682B4
+}
+
+h1.nameWebsite {
+	font-family: Georgia, serif;
+	color: #FF0000;
+	text-align: center;
+	text-transform: uppercase;
+	width: 300px;
+	margin: auto;
+	margin-top: 30px;
+	/*border: 1px solid black;*/
+	padding-left: auto;	
+	padding-bottom: 10px;
+}
+
+img{
+	border-radius: 16px;
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-right: 5px;
+	float: left;
+	background-size: cover;
+	object-fit: cover;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
