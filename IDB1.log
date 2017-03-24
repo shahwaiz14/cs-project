@@ -1,0 +1,220 @@
+commit 22b99c67f54996d7a9cd22544a097da133c73ffc
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Mar 23 17:55:36 2017 -0500
+
+    shah image
+
+commit 513c3db6e4ceb9c8bc3c8af144ec5147da377ba3
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Mar 23 17:41:58 2017 -0500
+
+    shahwaiz image fixed
+
+commit aee25658dc900b64de00f82f3f9cb1fdf97eefa7
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Mar 23 16:42:05 2017 -0500
+
+    about page stats added
+
+commit 51d9e589b1f936e1979c871d614dafeb1ad88d54
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Mar 23 15:36:50 2017 -0500
+
+    nav bar links
+
+commit 96224603c243174760b3e858fd1c8758aee0fb9a
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Mar 23 15:33:59 2017 -0500
+
+    fixed home link in products instances nav bars
+
+commit dac0bc219642dc99d9b28550d8caf8071ba03030
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Mar 23 15:30:06 2017 -0500
+
+    changed lists to tables
+
+commit 79aedc1806037620198e5a358585438189edb79e
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Mar 23 15:16:11 2017 -0500
+
+    added table headers for product instances
+
+commit 597d0b61dccc49c933b4a7dd854f54f905ce6458
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Mar 23 15:04:43 2017 -0500
+
+    hp css file changed
+
+commit 10c77602e30e036e293b6b73638eec4450a16b9f
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Mar 23 15:02:07 2017 -0500
+
+    fixed images, removed nav bar
+
+commit c329053c8851ebd6c82756796a0dcfa786a1b4a7
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Mar 23 10:32:07 2017 -0500
+
+    directories made
+
+commit 96ec8b454effc992227e8046328c9728162c096a
+Merge: 4833913 5a0e02f
+Author: Mehlum <mehlum@wireless-10-146-169-249.public.utexas.edu>
+Date:   Wed Mar 22 20:42:46 2017 -0500
+
+    created new categories instance, updated old
+
+commit 4833913e74bf5bd624cf29be44eced39da49f667
+Merge: 787ae54 682ab93
+Author: Mehlum <mehlum@wireless-10-146-169-249.public.utexas.edu>
+Date:   Wed Mar 22 20:41:51 2017 -0500
+
+    Merge branch 'dev' of https://github.com/shahwaiz14/cs329e-idb
+
+commit 5a0e02f2b1324793bc087894139eede2da3c1182
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 19:47:49 2017 -0500
+
+    fixed nav bar links for product pages
+
+commit 1ab2d82f35a1cb1f014c934cd1a6d924fb8ad5bb
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 19:40:39 2017 -0500
+
+    Add files via upload
+
+commit 82fbf69de7ce83985af6c2aab2c71f0d0b40e459
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 19:39:04 2017 -0500
+
+    Add files via upload
+
+commit aed5aa339d193f1d6facff52636fcaf69b48ebd7
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 19:37:40 2017 -0500
+
+    Added company css file
+
+commit 787ae547a68b2172063f25058624650ed2aa2660
+Author: Mehlum <mehlum@wireless-10-147-226-14.public.utexas.edu>
+Date:   Wed Mar 22 19:09:02 2017 -0500
+
+    Mehlum first commit, adding instances/testing
+
+commit 682ab939ac5f2663ab023ba14ec78e8cc941d6db
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 18:49:09 2017 -0500
+
+    added new css file
+
+commit 033fd65ae640a6347b58f3bcaebe82df41eb8367
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 18:31:00 2017 -0500
+
+    fixed nav bar links
+
+commit ab0951f7d015728a2a3b9988c465db8f1beaa93d
+Author: Shaomik Sarkar <shaomikraad@yahoo.com>
+Date:   Wed Mar 22 18:10:21 2017 -0500
+
+    Created Brand Instances
+
+commit 9c174ba13a9c5f3735e7fc4cdc912a868c66c6f2
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 18:06:54 2017 -0500
+
+    added member pics folder for bio
+
+commit fd93fdd2786bf4c4559fff4f9d91ab6bde32df32
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 18:00:27 2017 -0500
+
+    file mixup - fixed
+
+commit 64d82238079438a14a366f2fb873b54730706981
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 17:58:50 2017 -0500
+
+    added hp instance and specs
+
+commit 7908a8742d8aa68f75b813d5422648e2b052eb88
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 17:57:04 2017 -0500
+
+    added hp laptop instance page with specs
+
+commit 8d6457241f8f64b6430edc02878daaa9635da8e4
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 10:50:41 2017 -0500
+
+    samsung instance product details added
+
+commit ab26ce7cb84a67bb71faa965b753c2f6b35c1a3b
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 10:10:10 2017 -0500
+
+    updated folder structures and added samsung page instance
+
+commit d9297375b1b86c506f97e0e9ab03068bc386556f
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Tue Mar 21 17:46:24 2017 -0500
+
+    working on folder structure
+
+commit 93ad0d86158e59b8caf2a0f5e33a51027b8d07e0
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Tue Mar 21 17:17:14 2017 -0500
+
+    added images, css and macbook page
+
+commit 406e738ff70a7f16256503237149614e03c66076
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Tue Mar 21 14:47:42 2017 -0500
+
+    css
+
+commit 1599a4b89e9ee3c893b91d11b61b07fe85d66b1f
+Merge: f11db7b b8985b1
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Mon Mar 20 22:21:37 2017 -0500
+
+    Merge branch 'dev'
+
+commit b8985b1b695989541e21001d2a52afadd386c6e6
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Mon Mar 20 22:12:55 2017 -0500
+
+    first commit
+
+commit f11db7bc336cc1eb786e0462a1cf8fc8211f2b00
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Tue Mar 14 12:39:22 2017 -0500
+
+    Added link for site map
+    
+    Currently set for all access to everyone on the web.
+
+commit 57bccd0f0c6713154642f2d3bda0c26050bc0161
+Author: shahwaiz14 <shahwaiz14@hotmail.com>
+Date:   Mon Mar 13 11:40:42 2017 -0500
+
+    Update CNAME
+
+commit b67138349adde263c7b33b372e593a6b60df4ee8
+Author: shahwaiz14 <shahwaiz14@hotmail.com>
+Date:   Mon Mar 13 11:39:57 2017 -0500
+
+    Update CNAME
+
+commit f0ca64099f470c95a7a2c0eff535768f35c3995e
+Author: shahwaiz14 <shahwaiz14@hotmail.com>
+Date:   Mon Mar 13 10:30:05 2017 -0500
+
+    Create CNAME
+
+commit 6eea96dd1d37154862b3ecc421cffc29ff501678
+Author: shahwaiz14 <shahwaiz14@hotmail.com>
+Date:   Mon Mar 13 10:29:42 2017 -0500
+
+    Initial commit
