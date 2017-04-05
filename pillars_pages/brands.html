@@ -1,11 +1,16 @@
 <html>
 	<head>
 		<title> Brands </title>
-		<link rel="stylesheet" type="text/css" href="../css/brandcss.css">
+		<script src = "..\bootstrap\js\jquery-3.2.0.min.js"></script>
+		<!-- Bootstrap CSS Includes -->
+		<link href="..\bootstrap\css\bootstrap.css" rel="stylesheet">
+		<!-- Bootstrap JavaScript Includes -->
+		<script src = "..\bootstrap\js\bootstrap.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/brandcss.css"> 
 	</head>
 
 	<body>
-		<nav>
+		<!--<nav>
 			<ul class="top">
 				<div class="bar">
 					<li class="tab"> <a href="../index.html">Home</a> </li>
@@ -15,6 +20,29 @@
 					<li class="tab"> <a href="products.html">Products</a> </li>
 				</div>
 			</ul>
+		</nav> -->
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="..\index.html">ScoreDeal</a>
+				</div>
+				<div class="navbar-collapse collapse" aria-expanded="false">
+					<ul class="nav navbar-nav">
+						<li> <a href="..\index.html">Home</a> </li>
+						<li> <a href="..\about.html">About</a> </li>
+						<li> <a href="brands.html">Brands</a> </li>
+						<li> <a href="categories.html">Categories</a> </li>
+						<li> <a href="products.html">Products</a> </li>
+					</ul>
+				</div>
+			</div>
 		</nav>
 
 		<h1>Brands</h1>
