@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script src = "..\bootstrap\js\jquery-3.2.0.min.js"></script>
+		<!-- JQuery Includes -->
+		<script src="..\bootstrap\js\jquery-3.2.0.min.js"></script>
 		<!-- Bootstrap CSS Includes -->
 		<link href="..\bootstrap\css\bootstrap.css" rel="stylesheet">
 		<!-- Bootstrap JavaScript Includes -->
-		<script src = "..\bootstrap\js\bootstrap.js"></script>
+		<script src="..\bootstrap\js\bootstrap.js"></script>
 		<!-- Custom CSS File -->
 		<!--<link rel="stylesheet" type="text/css" href="../css/companystyle.css">-->
 		<title>Xbox One S</title>
@@ -23,13 +24,46 @@
 					</button>
 					<a class="navbar-brand" href="..\index.html">ScoreDeal</a>
 				</div>
-				<div class="navbar-collapse collapse" aria-expanded="false">
+				<div class="navbar-collapse collapse" aria-expanded="false"> 
 					<ul class="nav navbar-nav">
 						<li> <a href="..\index.html">Home</a> </li>
 						<li> <a href="..\about.html">About</a> </li>
-						<li> <a href="..\pillars_pages\brands.html">Brands</a> </li>
-						<li> <a href="..\pillars_pages\categories.html">Categories</a> </li>
-						<li> <a href="..\pillars_pages\products.html">Products</a> </li>
+						<li class="dropdown">
+							<a href="..\pillars_pages\brands.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Brands<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li> <a href="..\pillars_pages\brands.html">All Brands</a> </li><hr>
+								<li> <a href="#">Apple</a> </li>
+								<li> <a href="#">Samsung</a> </li>
+								<li> <a href="#">HP</a> </li>
+								<li> <a href="#">Intel</a> </li>
+								<li> <a href="#">LG</a> </li>
+								<li> <a href="#">Microsoft</a> </li>
+							</ul>
+						<li class="dropdown"> 
+							<a href="..\pillars_pages\products.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Categories<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li> <a href="..\pillars_pages\categories.html">All Categories</a> </li><hr>
+								<li> <a href="#">TVs</a> </li>
+								<li> <a href="#">Cell Phones</a> </li>
+								<li> <a href="#">Computers</a> </li>
+								<li> <a href="#">Printers</a> </li>
+								<li> <a href="#">Gaming Consoles</a> </li>
+								<li> <a href="#">Tablets</a> </li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="..\pillars_pages\products.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Products<span class="caret"></span></a>
+							<!-- <a href="..\pillars_pages\products.html">Products</a> </li> -->
+							<ul class="dropdown-menu">
+								<li> <a href="..\pillars_pages\products.html">All Products</a> </li><hr>
+								<li> <a href="#">iPhone 7</a> </li>
+								<li> <a href="#">Samsung TV</a> </li>
+								<li> <a href="#">Intel Laptop</a> </li>
+								<li> <a href="#">HP Envy</a> </li>
+								<li> <a href="#">LG G Pad</a> </li>
+								<li> <a href="#">Xbox One S</a> </li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 			</div>
