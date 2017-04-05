@@ -1,76 +1,130 @@
 <!DOCTYPE html>
 <html>
 	<head>
-
-		<link rel="stylesheet" type="text/css" href="../css/companystyle.css">
+		<script src = "..\bootstrap\js\jquery-3.2.0.min.js"></script>
+		<!-- Bootstrap CSS Includes -->
+		<link href="..\bootstrap\css\bootstrap.css" rel="stylesheet">
+		<!-- Bootstrap JavaScript Includes -->
+		<script src = "..\bootstrap\js\bootstrap.js"></script>
+		<!-- Custom CSS File -->
+		<!--<link rel="stylesheet" type="text/css" href="../css/companystyle.css">-->
 		<title>Xbox One S</title>
 	</head>
-<body>
-		<nav>
-			<ul>
-				<li> <a href="..\index.html">Home</a> </li>
-				<li> <a href="..\about.html">About</a> </li>
-				<li> <a href="..\pillars_pages\brands.html">Brands</a> </li>
-				<li> <a href="..\pillars_pages\categories.html">Categories</a> </li>
-				<li> <a href="..\pillars_pages\products.html">Products</a> </li>
-			</ul>
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="..\index.html">ScoreDeal</a>
+				</div>
+				<div class="navbar-collapse collapse" aria-expanded="false">
+					<ul class="nav navbar-nav">
+						<li> <a href="..\index.html">Home</a> </li>
+						<li> <a href="..\about.html">About</a> </li>
+						<li> <a href="..\pillars_pages\brands.html">Brands</a> </li>
+						<li> <a href="..\pillars_pages\categories.html">Categories</a> </li>
+						<li> <a href="..\pillars_pages\products.html">Products</a> </li>
+					</ul>
+				</div>
+			</div>
 		</nav>
-		<div>
-			<h1>XBox One S</h1>
-			<!-- include picture here -->
-			<img src="../images/product_images/Microsoft/xbox_one.png" align="middle">
+		<!-- Product Instance Category and Brand -->
+		<div class="container-fluid">
+			<h1>Xbox One S</h1>
+			<!-- include picture of product here -->
+			<img src="../images/product_images/Microsoft/xbox_one.png" align="middle" height="300">
+		</div></br></br></br>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Product Brand</h3>
+						</div>
+						<div class="panel-body">
+							<p><a href="#">Microsoft</a><p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Product Category</h3>
+						</div>
+						<div class="panel-body">
+							<p><a href="../categories_pages/GamingConsole.html">Gaming Console</a><p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		</br>
-		<div class="container">
-
-			<table>
-			<table border="1">
-				<tr>
-					<th>Processor</th><th>Details</th>
-				</tr>
-				<tr>
-					<td><strong>1.75GHz<strong></td>
-					<td><p>1.75GHz 8-core AMD custom CPU
-					</p></td>
-				</tr>
-			</table>
-		</div></br>
-		<div class="container">
-			<table border="1">
-				<tr>
-					<th>Memory</th><th>Details</th>
-				</tr>
-				<tr>
-					<td><strong>8GB<strong></td>
-					<td><p>8GB DDR3
-					</p></td>
-				</tr>
-			</table>
-		</div></br>
-		<div class="container">
-			<table border="1">
-				<tr>
-					<th>Storage</th><th>Details</th>
-				</tr>
-				<tr>
-					<td><strong>2TB <strong></td>
-					<td><p>2TB (5,400rpm) hard drive options, supports external hard drive storage
-					</p></td>
-				</tr>
-			</table>
-		</div></br>
-		<div class="container">
-			<table border="1">
-				<tr>
-					<th>Graphics</th><th>Details</th>
-				</tr>
-				<tr>
-					<td><strong>AMD <strong></td>
-					<td><p>Integrated AMD graphics clocked at 914MHz
-					</p></td>
-				</tr>
-			</table>
-		</div></br>
+		<!-- Product Specifications -->
+		<div class="container-fluid">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">Product Specifications</h3>
+				</div>
+				<div class="panel-body">
+					<div class="container-fluid">
+						<div class="container-left">
+							<table class="table">
+								<col width="150">
+								<tr>
+									<th>Processor</th><th>Details</th>
+								</tr>
+								<tr>
+									<td><strong>1.75GHz<strong></td>
+									<td><p>1.75GHz 8-core AMD custom CPU</p></td>
+								</tr>
+							</table>
+						</div></br>
+						<div class="container-left">
+							<table class="table">
+								<col width="150">
+								<tr>
+									<th>Memory</th><th>Details</th>
+								</tr>
+								<tr>
+									<td><strong>8GB<strong></td>
+									<td><p>8GB DDR3</p></td>
+								</tr>
+							</table>
+						</div></br>
+						<div class="container-left">
+							<table class="table">
+								<col width="150">
+								<tr>
+									<th>Storage</th><th>Details</th>
+								</tr>
+								<tr>
+									<td><strong>2TB<strong></td>
+									<td><p>2TB (5,400rpm) hard drive options, supports external hard drive storage</p></td>
+								</tr>
+							</table>
+						</div></br>
+						<div class="container-left">
+							<table class="table">
+								<col width="150">
+								<tr>
+									<th>Graphics</th><th>Details</th>
+								</tr>
+								<tr>
+									<td><strong>AMD <strong></td>
+									<td><p>Integrated AMD graphics clocked at 914MHz
+									</p></td>
+								</tr>
+							</table>
+						</div></br>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 	<br>
 </html>
