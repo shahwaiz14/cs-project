@@ -1,83 +1,175 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- JQuery Includes -->
+		<script src="..\bootstrap\js\jquery-3.2.0.min.js"></script>
+		<!-- Bootstrap CSS Includes -->
+		<link href="..\bootstrap\css\bootstrap.css" rel="stylesheet">
+		<!-- Bootstrap JavaScript Includes -->
+		<script src="..\bootstrap\js\bootstrap.js"></script>
+		<!-- Custom CSS File -->
+		<!--<link rel="stylesheet" type="text/css" href="../css/companystyle.css">-->
 
-		<link rel="stylesheet" type="text/css" href="../css/companystyle.css">
 		<title>iPhone 7 Plus</title>
 	</head>
 	<body>
-		<nav>
-			<ul>
-				<li> <a href="..\index.html">Home</a> </li>
-				<li> <a href="..\about.html">About</a> </li>
-				<li> <a href="..\pillars_pages\brands.html">Brands</a> </li>
-				<li> <a href="..\pillars_pages\categories.html">Categories</a> </li>
-				<li> <a href="..\pillars_pages\products.html">Products</a> </li>
-			</ul>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="..\index.html">ScoreDeal</a>
+				</div>
+				<div class="navbar-collapse collapse" aria-expanded="false"> 
+					<ul class="nav navbar-nav">
+						<li> <a href="..\index.html">Home</a> </li>
+						<li> <a href="..\about.html">About</a> </li>
+						<li class="dropdown">
+							<a href="..\pillars_pages\brands.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Brands<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li> <a href="..\pillars_pages\brands.html">All Brands</a> </li><hr>
+								<li> <a href="#">Apple</a> </li>
+								<li> <a href="#">Samsung</a> </li>
+								<li> <a href="#">HP</a> </li>
+								<li> <a href="#">Intel</a> </li>
+								<li> <a href="#">LG</a> </li>
+								<li> <a href="#">Microsoft</a> </li>
+							</ul>
+						<li class="dropdown"> 
+							<a href="..\pillars_pages\products.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Categories<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li> <a href="..\pillars_pages\categories.html">All Categories</a> </li><hr>
+								<li> <a href="#">TVs</a> </li>
+								<li> <a href="#">Cell Phones</a> </li>
+								<li> <a href="#">Computers</a> </li>
+								<li> <a href="#">Printers</a> </li>
+								<li> <a href="#">Gaming Consoles</a> </li>
+								<li> <a href="#">Tablets</a> </li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="..\pillars_pages\products.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Products<span class="caret"></span></a>
+							<!-- <a href="..\pillars_pages\products.html">Products</a> </li> -->
+							<ul class="dropdown-menu">
+								<li> <a href="..\pillars_pages\products.html">All Products</a> </li><hr>
+								<li> <a href="#">iPhone 7</a> </li>
+								<li> <a href="#">Samsung TV</a> </li>
+								<li> <a href="#">Intel Laptop</a> </li>
+								<li> <a href="#">HP Envy</a> </li>
+								<li> <a href="#">LG G Pad</a> </li>
+								<li> <a href="#">Xbox One S</a> </li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</nav>
+		<!-- Product Instance Category and Brand -->
 		<div>
 			<h1>Apple iPhone 7 Plus</h1>
 			<!-- include picture here -->
-			<img src="../images/product_images/apple/iphone7plus.jpg" align="middle">
+			<img src="../images/product_images/apple/iphone7plus.jpg" align="middle" height="400">
+		</div></br></br>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Product Brand</h3>
+						</div>
+						<div class="panel-body">
+							<p><a href="../brand_pages/apple.html">Apple</a><p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Product Category</h3>
+						</div>
+						<div class="panel-body">
+							<p><a href="../categories_pages/CellPhones.html">Cell Phones</a><p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		</br>
-		<div class="container">
-			<table border="1">
-				<tr>
-					<th>Display</th><th>Details</th>
-				</tr>
-				<tr>
-					<td><strong>Retina Display<strong></td>
-					<td><p>5.5-inch (diagonal) LED-backlit widescreen Multi-Touch display with IPS technology
-							<br><br>Supported Resolutions:
-							<table>
-								<tr><td>1920-by-1080-pixel resolution at 401 ppi</td></tr>
+		<!-- Product Specifications -->
+		<div class="container-fluid">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">Product Specifications</h3>
+				</div>
+				<div class="panel-body">
+					<div class="container-fluid">
+						<div class="container-left">
+							<table class="table">
+								<col width="150">
+								<tr>
+									<th>Display</th><th>Details</th>
+								</tr>
+								<tr>
+									<td><strong>Retina Display<strong></td>
+									<td><p>5.5-inch (diagonal) LED-backlit widescreen Multi-Touch display with IPS technology
+											<br><br>Supported Resolutions:
+											<table>
+												<tr><td>1920-by-1080-pixel resolution at 401 ppi</td></tr>
+											</table>
+									</p></td>
+								</tr>
 							</table>
-					</p></td>
-				</tr>
-			</table>
-		</div></br>
-		<div class="container">
-			<table>
-			<table border="1">
-				<tr>
-					<th>Processor</th><th>Details</th>
-				</tr>
-				<tr>
-					<td><strong>A10<strong></td>
-					<td><p>A10 Fusion chip with 64-bit architecture Embedded M10 motion coprocessor
-					</p></td>
-				</tr>
-			</table>
-		</div></br>
-		<div class="container">
-			<table>
-			<table border="1">
-				<tr>
-					<th>Storage</th>
-				</tr>
-				<tr>
-					<td><strong>32GB<strong></td>
-				<tr>
-					<td><strong>128GB</strong></td>
-				<tr>
-				<tr>	<td><strong>256GB</strong></td></tr>
-				</tr>
-			</table>
-		</div></br>
-		<div class="container">
-			<table>
-			<table border="1">
-				<tr>
-					<th>Camera</th><th>Details</th>
-				</tr>
-				<tr>
-					<td><strong>FaceTime HD Camera<strong></td>
-					<td><p>12MP wide-angle and telephoto cameras<br>
-					</p></td>
-				</tr>
-			</table>
-		</div></br>
+						</div></br>
+						<div class="container-left">
+							<table class="table">
+								<col width="150">
+								<tr>
+									<th>Processor</th><th>Details</th>
+								</tr>
+								<tr>
+									<td><strong>A10<strong></td>
+									<td><p>A10 Fusion chip with 64-bit architecture Embedded M10 motion coprocessor
+									</p></td>
+								</tr>
+							</table>
+						</div></br>
+						<div class="container-left">
+							<table class="table">
+								<col width="150">
+								<tr>
+									<th>Storage</th><th>Details</th>
+								</tr>
+								<tr>
+									<td></td><td>32GB</td>
+								<tr>
+									<td></td><td>128GB</td>
+								<tr>
+								<tr>	
+									<td></td><td>256GB</td></tr>
+								</tr>
+							</table>
+						</div></br>
+						<div class="container-left">
+							<table class="table">
+								<col width="150">
+								<tr>
+									<th>Camera</th><th>Details</th>
+								</tr>
+								<tr>
+									<td><strong>FaceTime HD Camera<strong></td>
+									<td><p>12MP wide-angle and telephoto cameras<br>
+									</p></td>
+								</tr>
+							</table>
+						</div></br>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 	<br>
 </html>
