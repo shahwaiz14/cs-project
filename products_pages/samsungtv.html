@@ -1,121 +1,215 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="../css/companystyle.css">
+		<!-- JQuery Includes -->
+		<script src="..\bootstrap\js\jquery-3.2.0.min.js"></script>
+		<!-- Bootstrap CSS Includes -->
+		<link href="..\bootstrap\css\bootstrap.css" rel="stylesheet">
+		<!-- Bootstrap JavaScript Includes -->
+		<script src="..\bootstrap\js\bootstrap.js"></script>
+		<!-- Custom CSS File -->
+		<!--<link rel="stylesheet" type="text/css" href="../css/companystyle.css">-->
 		<title>Samsung TV</title>
 	</head>
-	
 	<body>
-		<nav>
-			<ul>
-				<li> <a href="..\index.html">Home</a> </li>
-				<li> <a href="..\about.html">About</a> </li>
-				<li> <a href="..\pillars_pages\brands.html">Brands</a> </li>
-				<li> <a href="..\pillars_pages\categories.html">Categories</a> </li>
-				<li> <a href="..\pillars_pages\products.html">Products</a> </li>
-			</ul>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="..\index.html">ScoreDeal</a>
+				</div>
+				<div class="navbar-collapse collapse" aria-expanded="false"> 
+					<ul class="nav navbar-nav">
+						<li> <a href="..\index.html">Home</a> </li>
+						<li> <a href="..\about.html">About</a> </li>
+						<li class="dropdown">
+							<a href="..\pillars_pages\brands.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Brands<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li> <a href="..\pillars_pages\brands.html">All Brands</a> </li><hr>
+								<li> <a href="..\brand_pages\apple.html">Apple</a> </li>
+								<li> <a href="..\brand_pages\samsung.html">Samsung</a> </li>
+								<li> <a href="..\brand_pages\hp.html">HP</a> </li>
+								<li> <a href="#">Intel</a> </li>
+								<li> <a href="#">LG</a> </li>
+								<li> <a href="#">Microsoft</a> </li>
+							</ul>
+						<li class="dropdown"> 
+							<a href="..\pillars_pages\categories.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Categories<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li> <a href="..\pillars_pages\categories.html">All Categories</a> </li><hr>
+								<li> <a href="..\categories_pages\TV&HomeTheater.html">TVs</a> </li>
+								<li> <a href="..\categories_pages\CellPhones.html">Cell Phones</a> </li>
+								<li> <a href="..\categories_pages\computer&tablets.html">Computers</a> </li>
+								<li> <a href="..\categories_pages\printers.html">Printers</a> </li>
+								<li> <a href="..\categories_pages\GamingConsole.html">Gaming Consoles</a> </li>
+								<li> <a href="..\categories_pages\tablets.html">Tablets</a> </li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="..\pillars_pages\products.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Products<span class="caret"></span></a>
+							<!-- <a href="..\pillars_pages\products.html">Products</a> </li> -->
+							<ul class="dropdown-menu">
+								<li> <a href="..\pillars_pages\products.html">All Products</a> </li><hr>
+								<li> <a href="..\products_pages\iphone.html">iPhone 7</a> </li>
+								<li> <a href="..\products_pages\samsungtv.html">Samsung TV</a> </li>
+								<li> <a href="..\products_pages\dellalienware.html">Intel Laptop</a> </li>
+								<li> <a href="..\products_pages\hpenvy.html">HP Envy</a> </li>
+								<li> <a href="..\products_pages\lgg.html">LG G Pad</a> </li>
+								<li> <a href="..\products_pages\xboxones.html">Xbox One S</a> </li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</nav>
-		<div>
+		<!-- Product Instance Category and Brand -->
+		<div class="container-fluid">
 			<h1>Samsung LED TV 40"</h1>
 			<!-- include picture here -->
 			<img src="../images/product_images/samsung/samsung_jf200.jpeg.png">
+		</div></br>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Product Brand</h3>
+						</div>
+						<div class="panel-body">
+							<p><a href="#">Samsung</a><p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Product Category</h3>
+						</div>
+						<div class="panel-body">
+							<p><a href="../categories_pages/tablets.html">TV</a><p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		</br>
-		<div class="container">
-			<table border="1">
-				<tr>
-					<th>Display</th><th>Details</th>
-				</tr>
-				<tr>
-					<td><strong>Full HD LED TV<strong></td>
-					<td><p>40" Measured Diagonally, Flat Panel
-							<br><br>Supported Resolutions:
-							<table
-								<tr><td>1920x1080</td></tr>
+		<!-- Product Specifications -->
+		<div class="container-fluid">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">Product Specifications</h3>
+				</div>
+				<div class="panel-body">
+					<div class="container-fluid">
+						<div class="container-left">
+							<table class="table">
+							<col width="150">
+								<tr>
+									<th>Display</th><th>Details</th>
+								</tr>
+								<tr>
+									<td><strong>Full HD LED TV<strong></td>
+									<td><p>40" Measured Diagonally, Flat Panel
+											<br><br>Supported Resolutions:
+											<table
+												<tr><td>1920x1080</td></tr>
+											</table>
+									</p></td>
+								</tr>
 							</table>
-					</p></td>
-				</tr>
-			</table>
-		</div></br>
-		<div class="container">
-			<table border="1">
-				<tr>
-					<th>Audio</th><th>Details</th>
-				</tr>
-				<tr>
-					<td><strong>Dolby MS10<strong></td>
-					<td><p>DTS Studio Sound<br><br>
-							DTS Premium Sound 5.1
-					</p></td>
-				</tr>
-			</table>
-		</div></br>
-		<div class="container">
-			<table border="1">
-				<tr>
-					<th>I/O</th><th>#</th>
-				</tr>
-				<tr>
-					<td><strong>HDMI<strong></td>
-					<td><p>2
-					</p></td>
-				</tr>
-				<tr>
-					<td><strong>USB<strong></td>
-					<td><p>2
-					</p></td>
-				</tr>
-				<tr>
-					<td><strong>Ethernet<strong></td>
-					<td><p>1
-					</p></td>
-				</tr>
-				<tr>
-					<td><strong>Component<strong></td>
-					<td><p>1
-					</p></td>
-				</tr>
-				<tr>
-					<td><strong>Digital Audio Out<strong></td>
-					<td><p>1
-					</p></td>
-				</tr>
-			</table>
-		</div></br>
-		<div class="container">
-			<table border="1">
-				<tr>
-					<th>Network</th><th>Details</th>
-				</tr>
-				<tr>
-					<td><strong>Wifi<strong></td>
-					<td><p>Built-in Wi-Fi
-					</p></td>
-				</tr>
-			</table>
-		</div></br>
-		<div class="container">
-			<table border="1">
-				<tr>
-					<th>Power</th><th>Details</th>
-				</tr>
-				<tr>
-					<td><strong>ENERGY STAR® Certified<strong></td>
-					<td><p>Yes
-					</p></td>
-				</tr>
-				<tr>
-					<td><strong>Maximum Power Consumption<strong></td>
-					<td><p>85W
-					</p></td>
-				</tr>
-				<tr>
-					<td><strong>Standby Power Consumption<strong></td>
-					<td><p>Under 0.3W
-					</p></td>
-				</tr>
-			</table>
-		</div></br>
+						</div></br>
+						<div class="container-left">
+							<table class="table">
+							<col width="150">
+								<tr>
+									<th>Audio</th><th>Details</th>
+								</tr>
+								<tr>
+									<td><strong>Dolby MS10<strong></td>
+									<td><p>DTS Studio Sound<br><br>
+											DTS Premium Sound 5.1
+									</p></td>
+								</tr>
+							</table>
+						</div></br>
+						<div class="container-left">
+							<table class="table">
+							<col width="150">
+								<tr>
+									<th>I/O</th><th>#</th>
+								</tr>
+								<tr>
+									<td><strong>HDMI<strong></td>
+									<td><p>2
+									</p></td>
+								</tr>
+								<tr>
+									<td><strong>USB<strong></td>
+									<td><p>2
+									</p></td>
+								</tr>
+								<tr>
+									<td><strong>Ethernet<strong></td>
+									<td><p>1
+									</p></td>
+								</tr>
+								<tr>
+									<td><strong>Component<strong></td>
+									<td><p>1
+									</p></td>
+								</tr>
+								<tr>
+									<td><strong>Digital Audio Out<strong></td>
+									<td><p>1
+									</p></td>
+								</tr>
+							</table>
+						</div></br>
+						<div class="container-left">
+							<table class="table">
+							<col width="150">
+								<tr>
+									<th>Network</th><th>Details</th>
+								</tr>
+								<tr>
+									<td><strong>Wifi<strong></td>
+									<td><p>Built-in Wi-Fi
+									</p></td>
+								</tr>
+							</table>
+						</div></br>
+						<div class="container-left">
+							<table class="table">
+							<col width="150">
+								<tr>
+									<th>Power</th><th>Details</th>
+								</tr>
+								<tr>
+									<td><strong>ENERGY STAR® Certified<strong></td>
+									<td><p>Yes
+									</p></td>
+								</tr>
+								<tr>
+									<td><strong>Maximum Power Consumption<strong></td>
+									<td><p>85W
+									</p></td>
+								</tr>
+								<tr>
+									<td><strong>Standby Power Consumption<strong></td>
+									<td><p>Under 0.3W
+									</p></td>
+								</tr>
+							</table>
+						</div></br>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 	<br>
 </html>
