@@ -2,16 +2,20 @@
 	<head>
 		<title> Categories </title>
 		<script src = "..\bootstrap\js\jquery-3.2.0.min.js"></script>
+		<script src="..\bootstrap\js\jquery.dataTables.min.js"></script>
 		<!-- Bootstrap CSS Includes -->
 		<link href="..\bootstrap\css\bootstrap.css" rel="stylesheet">
+		<link href="https://cdn.datatables.net/1.10.13/css/dataTables.bootstrap.min.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
 		<!-- Bootstrap JavaScript Includes -->
 		<script src = "..\bootstrap\js\bootstrap.js"></script>
-		<link rel="stylesheet" type="text/css" href="..\css\brandcss.css">
+		<script src="..\bootstrap\js\sorttable.js"></script>
+		<!--<script>$(document).ready(function() {$('#example').DataTable();} );</script>-->
+		<script>$(document).ready(function() {$('#example').DataTable( {"lengthMenu": [[3, 4, 5, -1], [3, 4, 5, "All"]]} );} );</script>
 		<script src="..\bootstrap\js\sorttable.js"></script>
 	</head>
-
 	<body>
-		
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -32,7 +36,7 @@
 						<li class="dropdown">
 							<a href="..\pillars_pages\brands.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Brands<span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li> <a href="..\brands.html">All Brands</a> </li><hr>
+								<li> <a href="..\pillars_pages\brands.html">All Brands</a> </li><hr>
 								<li> <a href="..\brand_pages\apple.html">Apple</a> </li>
 								<li> <a href="..\brand_pages\samsung.html">Samsung</a> </li>
 								<li> <a href="..\brand_pages\hp.html">HP</a> </li>
@@ -72,100 +76,114 @@
 			</div>
 		</nav>
 
-		<h1>Categories</h1>
+		<div class="dataTables_wrapper form-inline dt-bootstrap">
+			<table class="table table-striped table-bordered" id="example">
+			<thead>
+				<tr>
+					<th>Category</th>
+					<th> Type </th>
+					<th>Accessories </th>
+					<th> Popular Products</th>
+					<th> Deals </th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<th>Category</th>
+					<th> Type </th>
+					<th>Accessories </th>
+					<th> Popular Products</th>
+					<th> Deals </th>
+				</tr>
+			</tfoot>	
+			<tbody>
+				<tr class="odd">
+					<td> 
+					<a href="../categories_pages/TV&HomeTheater.html"> TV &amp; Home Theater </a>
+					</td> 
+					<td>
+						<ul> 
+							<li>Smart TVs</li>
+							<li>Curved TVs</li>
+							<li>LED TVs</li>
+						</ul>
+					</td>
+					<td>HDMI Cable</td>
+					<td> <a href="../products_pages/samsungtv.html" style="text-decoration: none;">Samsung -LED TV 40"</a> </td>
+					<td>Yes</td>
+				</tr>
 
-		<table class="sortable">
+				<tr>
+					<td><a href="../categories_pages/CellPhones.html"> CellPhones </a> </td>
+					<td>
+						<ul> 
+							<li>iPhone</li>
+							<li>Samsung Galaxy</li>
+						</ul>
+					</td>
+					<td>Cell Phone cases</td>
+					<td>Apple - iPhone 7 Plus 128GB - Black</td>
+					<td>Yes</td>
+				</tr>
 
-			<th scope="col"> Category </th>
-			<th scope="col"> Type </th>
-			<th scope="col"> Accessories </th>
-			<th scope="col"> Popular Products <br> in the Category </th>
-			<th scope="col"> Deals </th>
-			<tr class="odd">
+				<tr class="odd">
+					<td> <a href="../categories_pages/computer&tablets.html"> Computers</a> </td>
+					<td>
+						<ul> 
+							<li>Laptops</li>
+							<li>Desktops</li>
+						</ul>
+					</td>
+					<td> Mouse, Keyboards</td>
+
+					<td><a href="../products_pages/macbook.html" style="text-decoration: none;"> Apple MacBook 12"</a></td>
+					<td>No</td>
+				</tr>
+
+
 				<td> 
-				<a href="../categories_pages/TV&HomeTheater.html"> TV &amp; Home Theater </a>
-				</td> 
-				<td>
-					<ul> 
-						<li>Smart TVs</li>
-						<li>Curved TVs</li>
-						<li>LED TVs</li>
-					</ul>
-				</td>
-				<td>HDMI Cable</td>
-				<td> <a href="../products_pages/samsungtv.html" style="text-decoration: none;">Samsung -LED TV 40"</a> </td>
-				<td>Yes</td>
-			</tr>
+					<a href="../categories_pages/printers.html"> Printers </a>
+					</td> 
+					<td>
+						<ul> 
+							<li>Laser Printer</li>
+							<li>Inkjet Printer</li>
+							<li>All-in-One Printer</li>
+						</ul>
+					</td>
+					<td>Paper, Ink &amp Toner </td>
+					<td> <a href="../products_pages/samsungtv.html" style="text-decoration: none;">HP - ENVY 7640 Wireless All-in-One Instant Ink Ready Printer - Black</a> </td>
+					<td>Yes</td>
+				</tr>
 
-			<tr>
-				<td><a href="../categories_pages/CellPhones.html"> CellPhones </a> </td>
-				<td>
-					<ul> 
-						<li>iPhone</li>
-						<li>Samsung Galaxy</li>
-					</ul>
-				</td>
-				<td>Cell Phone cases</td>
-				<td>Apple - iPhone 7 Plus 128GB - Black</td>
-				<td>Yes</td>
-			</tr>
+				<tr class="odd">
+					<td><a href="../categories_pages/GamingConsole.html"> Gaming Console </a> </td>
+					<td>
+						<ul> 
+							<li>Xbox</li>
+						</ul>
+					</td>
+					<td>Xbox games, Controllers</td>
+					<td>Xbox One S 2TB Console</td>
+					<td>Yes</td>
+				</tr>
 
-			<tr class="odd">
-				<td> <a href="../categories_pages/computer&tablets.html"> Computers</a> </td>
-				<td>
-					<ul> 
-						<li>Laptops</li>
-						<li>Desktops</li>
-					</ul>
-				</td>
-				<td> Mouse, Keyboards</td>
+				<tr>
+					<td> <a href="../categories_pages/tablets.html">Tablets </a> </td>
+					<td>
+						<ul> 
+							<li>Android</li>
+							<li>Windows 10</li>
+							<li>iOS</li>
+						</ul>
+					</td>
+					<td> Case, Headphones</td>
 
-				<td><a href="../products_pages/macbook.html" style="text-decoration: none;"> Apple MacBook 12"</a></td>
-				<td>No</td>
-			</tr>
-
-
-			<td> 
-				<a href="../categories_pages/printers.html"> Printers </a>
-				</td> 
-				<td>
-					<ul> 
-						<li>Laser Printer</li>
-						<li>Inkjet Printer</li>
-						<li>All-in-One Printer</li>
-					</ul>
-				</td>
-				<td>Paper, Ink &amp Toner </td>
-				<td> <a href="../products_pages/samsungtv.html" style="text-decoration: none;">HP - ENVY 7640 Wireless All-in-One Instant Ink Ready Printer - Black</a> </td>
-				<td>Yes</td>
-			</tr>
-
-			<tr class="odd">
-				<td><a href="../categories_pages/GamingConsole.html"> Gaming Console </a> </td>
-				<td>
-					<ul> 
-						<li>Xbox</li>
-					</ul>
-				</td>
-				<td>Xbox games, Controllers</td>
-				<td>Xbox One S 2TB Console</td>
-				<td>Yes</td>
-			</tr>
-
-			<tr>
-				<td> <a href="../categories_pages/tablets.html">Tablets </a> </td>
-				<td>
-					<ul> 
-						<li>Android</li>
-						<li>Windows 10</li>
-						<li>iOS</li>
-					</ul>
-				</td>
-				<td> Case, Headphones</td>
-
-				<td><a href="../products_pages/macbook.html" style="text-decoration: none;"> LG - G Pad - 7" - 8GB - Wi-Fi + 4G LTE Sprint - Black</a></td>
-				<td>No</td>
-			</tr>
+					<td><a href="../products_pages/macbook.html" style="text-decoration: none;"> LG - G Pad - 7" - 8GB - Wi-Fi + 4G LTE Sprint - Black</a></td>
+					<td>No</td>
+				</tr>
+			</tbody>
 		</table>
+		</div>
 	</body>
 </html>
