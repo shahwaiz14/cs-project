@@ -62,9 +62,9 @@ def CellPhones():
 def computertablets():
         return render_template('computertablets.html')
         
-@app.route('/printers')
-def printers():
-        return render_template('printers.html')
+@app.route('/printer')
+def printer():
+        return render_template('printer.html')
  
 @app.route('/GamingConsole')
 def GamingConsole():
@@ -107,14 +107,9 @@ def xboxones():
         return render_template('xboxones.html')
 
 
-##@app.route('/brands.html')
-##def brands():
-##        return render_template('pillars_pages/brands.html')
         
 if __name__ == '__main__':
 	app.run() # Run application
-
-
 
 
 ##@app.route('/brands.html')
