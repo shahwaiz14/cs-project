@@ -1,106 +1,101 @@
-<!DOCTYPE html>
+
 <html>
 	<head>
-		<title> Homepage Scoredeal </title>
-		<script src = "..\static\bootstrap\js\jquery-3.2.0.min.js"></script>
-		<!-- Bootstrap CSS Includes -->
-		<link href="..\static\bootstrap\css\bootstrap.css" rel="stylesheet">
-		<!-- Bootstrap JavaScript Includes -->
-		<script src = "..\static\bootstrap\js\bootstrap.js"></script>
-		<!--<link rel="stylesheet" type="text/css" href="css\splashcss.css">-->
+        <title> Homepage Scoredeal </title>
+        <script src = "../static/bootstrap\js\jquery-3.2.0.min.js"></script>
+        <!-- Bootstrap CSS Includes -->
+        <link href="../static/bootstrap\css\bootstrap.css" rel="stylesheet">
+        <!-- Bootstrap JavaScript Includes -->
+        <script src = "../static/bootstrap\js\bootstrap.js"></script>
+        <!--<link rel="stylesheet" type="text/css" href="css\splashcss.css">-->
+        <style>
+         body {
+            background: url(../static/images/office.jpg) center center no-repeat fixed;
+            background-size: cover;
+         }
+         .splashy{
+            text-align: center;
+         }
+         .buttonA {
+          background-color: #4CAF50;
+          border-radius: 8px
+          color: white;
+          padding: 16px 32px;
+          text-align: center;
+          font-size: 20px;
+          font-family: Courier, sans-serif;
+          
+        }
+        .tagline{
+            text-align: center;
+            color: black;
+            font-family: Courier, sans-serif;
+        }
+
+        </style> 
 	</head>
+    <body>
+      <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">ScoreDeal</a>
+                </div>
+                <div class="navbar-collapse collapse" aria-expanded="false">
+                    <ul class="nav navbar-nav">
+                        <li> <a href="index.html">Home</a> </li>
+                        <li> <a href={{ url_for('about') }}> About</a> </li>
+                        <li class="dropdown">
+                            <a href="..\pillars_pages\brands.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Brands<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li> <a href={{ url_for('brands') }}>All Brands</a> </li><hr>
+                                <li> <a href="brand_pages\apple.html">Apple</a> </li>
+                                <li> <a href="brand_pages\samsung.html">Samsung</a> </li>
+                                <li> <a href="brand_pages\hp.html">HP</a> </li>
+                                <li> <a href="brand_pages\Intel.html">Intel</a> </li>
+                                <li> <a href="brand_pages\lgg.html">LG</a> </li>
+                                <li> <a href="brand_pages\microsft.html">Microsoft</a> </li>
+                            </ul>
+                            </li>
 
-	<body>
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html">ScoreDeal</a>
-				</div>
-				<div class="navbar-collapse collapse" aria-expanded="false">
-					<ul class="nav navbar-nav">
-						<li> <a href="index.html">Home</a> </li>
-						<li> <a href={{ url_for('about') }}> About</a> </li>
-						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Brands<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li> <a href={{ url_for('brands') }}> All Brands</a> </li><hr>
-								<li> <a href={{ url_for('apple') }}> Apple</a> </li>
-								<li> <a href={{ url_for('samsung') }}> Samsung</a> </li>
-								<li> <a href={{ url_for('hp') }}> HP</a> </li>
-								<li> <a href={{ url_for('intel') }}> Intel</a> </li>
-								<li> <a href={{ url_for('lg') }}> LG</a> </li>
-								<li> <a href={{ url_for('microsoft') }}> Microsoft</a> </li>
-							</ul>
-							</li>
-
-							<li class="dropdown"> 
-							<a href="pillars_pages\categories.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Categories<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li> <a href="pillars_pages\categories.html">All Categories</a> </li><hr>
-								<li> <a href="categories_pages\TV&HomeTheater.html">TVs</a> </li>
-								<li> <a href="categories_pages\CellPhones.html">Cell Phones</a> </li>
-								<li> <a href="categories_pages\computer&tablets.html">Computers</a> </li>
-								<li> <a href="categories_pages\printers.html">Printers</a> </li>
-								<li> <a href="categories_pages\GamingConsole.html">Gaming Consoles</a> </li>
-								<li> <a href="categories_pages\tablets.html">Tablets</a> </li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a href="pillars_pages\products.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Products<span class="caret"></span></a>
-							<!-- <a href="..\pillars_pages\products.html">Products</a> </li> -->
-							<ul class="dropdown-menu">
-								<li> <a href="pillars_pages\products.html">All Products</a> </li><hr>
-								<li> <a href="products_pages\iphone.html">iPhone 7</a> </li>
-								<li> <a href="products_pages\samsungtv.html">Samsung TV</a> </li>
-								<li> <a href="products_pages\dellalienware.html">Intel Laptop</a> </li>
-								<li> <a href="products_pages\hpenvy.html">HP Envy</a> </li>
-								<li> <a href="products_pages\lgg.html">LG G Pad</a> </li>
-								<li> <a href="products_pages\xboxones.html">Xbox One S</a> </li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-	
-		<ol class="carousel-indicators">
-    	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    	<li data-target="#myCarousel" data-slide-to="1"></li>
-    	<li data-target="#myCarousel" data-slide-to="2"></li>
-
-  		</ol>
-  			<div class="carousel-inner" role="listbox">
-    			<div class="item active">
-					<img src="images/product_images/apple/ipad.jpg" width:100%; height: 500px>
-				</div>
-				<div class="item">
-					<img src="images/product_images/apple/TV.jpg" width:100%; height: 500px>
-				</div>
-				<div class="item">
-					<img src="images/product_images/hp/hp_printer.jpg" width:100%; height: 500px>
-				</div>
-			</div>
-
-		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    		<span class="sr-only">Previous</span>
-  		</a>
-  		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    		<span class="sr-only">Next</span>
-  		</a>
-
-	</div>
-
-	</body>
-
+                            <li class="dropdown"> 
+                            <a href="pillars_pages\categories.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Categories<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li> <a href="pillars_pages\categories.html">All Categories</a> </li><hr>
+                                <li> <a href="categories_pages\TV&HomeTheater.html">TVs</a> </li>
+                                <li> <a href="categories_pages\CellPhones.html">Cell Phones</a> </li>
+                                <li> <a href="categories_pages\computer&tablets.html">Computers</a> </li>
+                                <li> <a href="categories_pages\printers.html">Printers</a> </li>
+                                <li> <a href="categories_pages\GamingConsole.html">Gaming Consoles</a> </li>
+                                <li> <a href="categories_pages\tablets.html">Tablets</a> </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="pillars_pages\products.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Products<span class="caret"></span></a>
+                            <!-- <a href="..\pillars_pages\products.html">Products</a> </li> -->
+                            <ul class="dropdown-menu">
+                                <li> <a href="pillars_pages\products.html">All Products</a> </li><hr>
+                                <li> <a href="products_pages\iphone.html">iPhone 7</a> </li>
+                                <li> <a href="products_pages\samsungtv.html">Samsung TV</a> </li>
+                                <li> <a href="products_pages\dellalienware.html">Intel Laptop</a> </li>
+                                <li> <a href="products_pages\hpenvy.html">HP Envy</a> </li>
+                                <li> <a href="products_pages\lgg.html">LG G Pad</a> </li>
+                                <li> <a href="products_pages\xboxones.html">Xbox One S</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <div class = "tagline"> <h1> Your Company Research - Simplified </h1></div>
+    <div class = "splashy">
+      <button type="button" onclick="window.location.href='../templates/brands.html'" class = "buttonA"> Find Companies </button>
+    </div>
+   </body>   
 </html>
