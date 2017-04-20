@@ -11,6 +11,8 @@ def index():
 def about():
         return render_template('about.html')
 
+
+# Dropdown links for brands menu
 @app.route('/brands.html')
 def brands():
         return render_template('brands.html')
@@ -42,7 +44,67 @@ def lg():
 @app.route('/microsoft')
 def microsoft():
         return render_template('microsoft.html')
+        
+# Categories Drop Down Links
+@app.route('/categories')
+def categories():
+        return render_template('categories.html')
 
+@app.route('/TVHomeTheater')
+def TVHomeTheater():
+        return render_template('TVHomeTheater.html')
+        
+@app.route('/CellPhones')
+def CellPhones():
+        return render_template('CellPhones.html')
+ 
+@app.route('/computertablets')
+def computertablets():
+        return render_template('computertablets.html')
+        
+@app.route('/printers')
+def printers():
+        return render_template('printers.html')
+ 
+@app.route('/GamingConsole')
+def GamingConsole():
+        return render_template('GamingConsole.html')
+ 
+@app.route('/tablets')
+def tablets():
+        return render_template('tablets.html')
+ 
+
+
+# Products Drop Down Links
+@app.route('/products')
+def products():
+        return render_template('products.html')
+        
+@app.route('/iphone')
+def iphone():
+        return render_template('iphone.html')
+ 
+@app.route('/samsungtv')
+def samsungtv():
+        return render_template('samsungtv.html')
+        
+@app.route('/dellalienware')
+def dellalienware():
+        return render_template('dellalienware.html')
+ 
+@app.route('/hpenvy')
+def hpenvy():
+        return render_template('hpenvy.html')
+ 
+@app.route('/lgg')
+def lgg():
+        return render_template('lgg.html')
+ 
+ 
+@app.route('/xboxones')
+def xboxones():
+        return render_template('xboxones.html')
 
 
 ##@app.route('/brands.html')
@@ -51,3 +113,11 @@ def microsoft():
         
 if __name__ == '__main__':
 	app.run() # Run application
+
+
+
+
+##@app.route('/brands.html')
+##def brands():
+##        return render_template('pillars_pages/brands.html')
+        
