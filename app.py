@@ -45,7 +45,7 @@ def lg():
 def microsoft():
         return render_template('microsoft.html')
         
-# Categories Drop Down Links
+
 @app.route('/categories')
 def categories():
         return render_template('categories.html')
