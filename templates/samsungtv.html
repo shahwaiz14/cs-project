@@ -1,73 +1,74 @@
-<!DOCTYPE html>
 <html>
 	<head>
-		<!-- JQuery Includes -->
-		<script src="..\..\static\bootstrap\js\jquery-3.2.0.min.js"></script>
+		<title> Cell Phones </title>
+		<script src = "..\static\bootstrap\js\jquery-3.2.0.min.js"></script>
 		<!-- Bootstrap CSS Includes -->
-		<link href="..\..\static\bootstrap\css\bootstrap.css" rel="stylesheet">
+		<link href="..\static\bootstrap\css\bootstrap.css" rel="stylesheet">
 		<!-- Bootstrap JavaScript Includes -->
-		<script src="..\..\static\bootstrap\js\bootstrap.js"></script>
-		<!-- Custom CSS File -->
-		<!--<link rel="stylesheet" type="text/css" href="../css/companystyle.css">-->
-		<title>Samsung TV</title>
+		<script src = "..\static\bootstrap\js\bootstrap.js"></script>
+		<link rel="stylesheet" type="text/css" href="..\css\brandcss.css">
+		<script src="..\static\bootstrap\js\sorttable.js"></script>
 	</head>
 	<body>
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="..\index.html">ScoreDeal</a>
-				</div>
-				<div class="navbar-collapse collapse" aria-expanded="false"> 
-					<ul class="nav navbar-nav">
-						<li> <a href="..\index.html">Home</a> </li>
-						<li> <a href="..\about.html">About</a> </li>
-						<li class="dropdown">
-							<a href="..\pillars_pages\brands.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Brands<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li> <a href="..\pillars_pages\brands.html">All Brands</a> </li><hr>
-								<li> <a href="..\brand_pages\apple.html">Apple</a> </li>
-								<li> <a href="..\brand_pages\samsung.html">Samsung</a> </li>
-								<li> <a href="..\brand_pages\hp.html">HP</a> </li>
-								<li> <a href="..\brand_pages\intel.html">Intel</a> </li>
-								<li> <a href="..\brand_pages\lg.html">LG</a> </li>
-								<li> <a href="..\brand_pages\microsoft">Microsoft</a> </li>
-							</ul>
-						<li class="dropdown"> 
-							<a href="..\pillars_pages\categories.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Categories<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li> <a href="..\pillars_pages\categories.html">All Categories</a> </li><hr>
-								<li> <a href="..\categories_pages\TV&HomeTheater.html">TVs</a> </li>
-								<li> <a href="..\categories_pages\CellPhones.html">Cell Phones</a> </li>
-								<li> <a href="..\categories_pages\computer&tablets.html">Computers</a> </li>
-								<li> <a href="..\categories_pages\printers.html">Printers</a> </li>
-								<li> <a href="..\categories_pages\GamingConsole.html">Gaming Consoles</a> </li>
-								<li> <a href="..\categories_pages\tablets.html">Tablets</a> </li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a href="..\pillars_pages\products.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Products<span class="caret"></span></a>
-							<!-- <a href="..\pillars_pages\products.html">Products</a> </li> -->
-							<ul class="dropdown-menu">
-								<li> <a href="..\pillars_pages\products.html">All Products</a> </li><hr>
-								<li> <a href="..\products_pages\iphone.html">iPhone 7</a> </li>
-								<li> <a href="..\products_pages\samsungtv.html">Samsung TV</a> </li>
-								<li> <a href="..\products_pages\dellalienware.html">Intel Laptop</a> </li>
-								<li> <a href="..\products_pages\hpenvy.html">HP Envy</a> </li>
-								<li> <a href="..\products_pages\lgg.html">LG G Pad</a> </li>
-								<li> <a href="..\products_pages\xboxones.html">Xbox One S</a> </li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+		
+			<nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href={{ url_for('index') }}>ScoreDeal</a>
+                </div>
+                <div class="navbar-collapse collapse" aria-expanded="false">
+                    <ul class="nav navbar-nav">
+                        <li> <a href={{ url_for('index') }}>Home</a> </li>
+                        <li> <a href={{ url_for('about') }}> About</a> </li>
+                        <li class="dropdown">
+                            <a href={{ url_for('brands') }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Brands<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li> <a href={{ url_for('brands') }}>All Brands</a> </li><hr>
+                                <li> <a href={{ url_for('apple') }}>Apple</a> </li>
+                                <li> <a href={{ url_for('samsung') }}>Samsung</a> </li>
+                                <li> <a href={{ url_for('hp') }}>HP</a> </li>
+                                <li> <a href={{ url_for('intel') }}>Intel</a> </li>
+                                <li> <a href={{ url_for('lg') }}>LG</a> </li>
+                                <li> <a href={{ url_for('microsoft') }}>Microsoft</a> </li>
+                            </ul>
+                            </li>
+
+                            <li class="dropdown"> 
+                            <a href={{ url_for('categories') }} class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Categories<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li> <a href={{ url_for('categories') }}>All Categories</a> </li><hr>
+                                <li> <a href={{ url_for('TVHomeTheater') }}>TVs</a> </li>
+                                <li> <a href={{ url_for('CellPhones') }}> Cell Phones</a> </li>
+                                <li> <a href={{ url_for('computertablets') }}> Computers</a> </li>
+                                <li> <a href={{ url_for('printer') }}"> Printers</a> </li>
+                                <li> <a href={{ url_for('GamingConsole')}}> Gaming Consoles</a> </li>
+                                <li> <a href={{ url_for('tablets') }}>Tablets</a> </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href={{ url_for('products') }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Products<span class="caret"></span></a>
+                            <!-- <a href="..\pillars_pages\products.html">Products</a> </li> -->
+                            <ul class="dropdown-menu">
+                                <li> <a href={{ url_for('products') }}>All Products</a> </li><hr>
+                                <li> <a href={{ url_for('iphone') }}>iPhone 7</a> </li>
+                                <li> <a href={{ url_for('samsungtv') }}>Samsung TV</a> </li>
+                                <li> <a href={{ url_for('dellalienware') }}>Intel Laptop</a> </li>
+                                <li> <a href={{ url_for('hpenvy') }} >HP Envy</a> </li>
+                                <li> <a href={{ url_for('lgg') }}>LG G Pad</a> </li>
+                                <li> <a href={{ url_for('xboxones') }}>Xbox One S</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 		<!-- Product Instance Category and Brand -->
 		<div class="container-fluid">
 			<h1>Samsung LED TV 40"</h1>
@@ -82,7 +83,7 @@
 							<h3 class="panel-title">Product Brand</h3>
 						</div>
 						<div class="panel-body">
-							<p><a href="#">Samsung</a><p>
+							<p><a href={{ url_for('samsung') }}>Samsung</a><p>
 						</div>
 					</div>
 				</div>
@@ -92,7 +93,7 @@
 							<h3 class="panel-title">Product Category</h3>
 						</div>
 						<div class="panel-body">
-							<p><a href="../categories_pages/tablets.html">TV</a><p>
+							<p><a href={{ url_for('TVHomeTheater') }}>TV</a><p>
 						</div>
 					</div>
 				</div>
