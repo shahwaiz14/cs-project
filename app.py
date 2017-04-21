@@ -116,8 +116,8 @@ def xboxones():
 
         
 if __name__ == '__main__':
-        #app.run('127.0.0.1', '5000')
-		app.run('174.138.78.41', '80') # Run application
+        app.run('127.0.0.1', '5000')
+		#app.run('174.138.78.41', '80') # Run application
 
 
 ##@app.route('/brands.html')

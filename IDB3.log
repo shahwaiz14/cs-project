@@ -1,0 +1,540 @@
+commit 257ca20db76859b549b862b1e77315a7692a282e
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Apr 20 21:05:20 2017 -0500
+
+    apple fixed
+
+commit 00857ffcba93a6c04cca5fa2c41528ddd7d868d4
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Apr 20 20:33:46 2017 -0500
+
+    categories fixed
+
+commit 1cfe754d26d746a360a48ce971d855e2ab925aa2
+Author: mkay110 <mkay110@utexas.edu>
+Date:   Thu Apr 20 18:27:11 2017 -0500
+
+    Update about.html
+
+commit bfce1b520b7da10141273506e00f1a4fa4ef4aaf
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 20 18:18:11 2017 -0500
+
+    except all categories
+
+commit 22affcee99f0236a2506a7bcb5f5070921d5cd0c
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 20 16:53:09 2017 -0500
+
+    push for digital ocean
+
+commit d1aebde2c030c0effa74f47e813a310643ceac9d
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 20 16:31:51 2017 -0500
+
+    product typo fixed
+
+commit 3432a2c94a33768b3d71df555abecd2bc07cc824
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Apr 20 16:00:18 2017 -0500
+
+    added flask links for products pages
+
+commit ba4afaa42736cbe679b3d6c469cdcc383573e34c
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 20 15:40:59 2017 -0500
+
+    shaomiks flask done
+
+commit 7130abd1c29d410729ab51cbe17c9dcfc6bc4139
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 20 15:09:41 2017 -0500
+
+    to brands
+
+commit ad14fca09db734058e2a15fdce5d0ec5f70bd298
+Author: shahwaiz14 <shahwaiz14@hotmail.com>
+Date:   Thu Apr 20 13:23:36 2017 -0500
+
+    Update about.html
+
+commit cb31299720828da424e87adedf184a99b5d23e86
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 20 12:23:01 2017 -0500
+
+     flask added to Mehlum's files
+
+commit ef79d5743546a6c3bd667d7d71d914c04bceaa49
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 20 09:30:17 2017 -0500
+
+    flask for brands, cat., prod., about, index
+
+commit 98e327c346da9efa3db11626a24d03c4abef7744
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Wed Apr 19 20:32:57 2017 -0500
+
+    flask working for index
+
+commit 2df545ca3b03e52dd39f92fc45edc97a9bf094b0
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Wed Apr 19 19:54:55 2017 -0500
+
+    splash-new
+
+commit 98e0ae9ca379924f43a6221f70238f325ee60cae
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Wed Apr 19 19:45:48 2017 -0500
+
+    test
+
+commit dfafbb0fc2c5c40b64e80234bbf1e43b73bdf3b9
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Wed Apr 19 19:42:26 2017 -0500
+
+    flask demo
+
+commit b83f78326dbab83c97ddd90ac7512984f234f775
+Merge: 4fe15b4 bb9f1a0
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Wed Apr 19 18:03:36 2017 -0500
+
+    foo
+
+commit 4fe15b40d6c660521e8473fe863412082c6c0b27
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Wed Apr 19 17:56:27 2017 -0500
+
+    folders taken out
+
+commit bb9f1a0ffa11c9d52d18f457498f5b45f7513d9e
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Apr 19 15:54:18 2017 -0500
+
+    nav bar links udpated for product pages
+
+commit 5eb6c2e2e18ac7c53a45d416eece3bac6eb08bdf
+Merge: 9d91967 3fddf4b
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Tue Apr 18 18:15:09 2017 -0500
+
+    Merge branch 'master' of https://github.com/shahwaiz14/shahwaiz14.github.io
+
+commit 9d9196702f1013724c48d4959835dbf154f7aa0d
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Tue Apr 18 18:13:57 2017 -0500
+
+    static and templates folder created
+
+commit 3fddf4b950da294d620862e85e600831bdbf2597
+Author: root <root@cs329e.localdomain>
+Date:   Tue Apr 18 22:47:25 2017 +0000
+
+    digital ocean push
+
+commit 6b9d8c9054234410b412f44fc4c0be7acdd819cc
+Author: shahwaiz14 <shahwaiz14@hotmail.com>
+Date:   Thu Apr 6 21:39:44 2017 -0500
+
+    Update about.html
+
+commit 2a9131b4ee15b3d9c7d9f0ce221ba6f9a2da3dff
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 6 21:35:53 2017 -0500
+
+    log 2 added
+
+commit 0993c942d9dbd82771d5c43547e68b868140362e
+Author: shahwaiz14 <shahwaiz14@hotmail.com>
+Date:   Thu Apr 6 21:08:56 2017 -0500
+
+    Update about.html
+
+commit b27f54ff35530120ea01c0c94f3454c6f04cd252
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Apr 6 20:59:40 2017 -0500
+
+    category links updated
+
+commit 53e26be58cca04ed188d603d50c1298884eb8ea5
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Apr 6 20:47:03 2017 -0500
+
+    added pagination for all model pages
+
+commit 16918a0cb8a9a1a80744bfdb28a5c565a9711065
+Author: Shaomik Sarkar <shaomikraad@yahoo.com>
+Date:   Thu Apr 6 20:10:11 2017 -0500
+
+    brands pg
+
+commit 1eb8b4ccde8e1a0fd18a873f4fab5d26024cd76c
+Author: Mehlum <mehlum@Mehlums-MacBook-Pro.local>
+Date:   Thu Apr 6 19:51:00 2017 -0500
+
+    fixed computer page nav bar
+
+commit daf6c1d0266bf1237c8cac85a1381b588133e912
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 6 19:42:15 2017 -0500
+
+    pillars fixed all
+
+commit cb96f69d6f8945ca110362387c9847e4f1ecda39
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 6 19:39:00 2017 -0500
+
+    pillars pages links fixed
+
+commit a54facdd0b355f8c189a19b0799eba3bfdc531a8
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Apr 6 19:23:25 2017 -0500
+
+    pagination added
+
+commit 696e605fcc1c51a79c46ee2964d6dbe42d4e3393
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 6 19:19:13 2017 -0500
+
+    categories fixed
+
+commit 2d7f345b62c14a3d69fcc4b1bbff02503d3c22f1
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 6 18:54:53 2017 -0500
+
+    company details added
+
+commit 3e0cbddb1c20fabb516eca8f2818736810b2b54d
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 6 18:13:10 2017 -0500
+
+    brands dropdown working
+
+commit ee9f73df2caada8996b972630ccfd228ccbdf251
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 6 18:02:18 2017 -0500
+
+    categories bootstrap added
+
+commit 874d0840ba9bbcfb4e7bb122523f9d6be602ee17
+Author: Mehlum <mehlum@Mehlums-MacBook-Pro.local>
+Date:   Thu Apr 6 17:49:23 2017 -0500
+
+    added more products to pages, links
+
+commit 757195d023e08bb9d305c20ba2a9f85253c9c8d9
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 6 17:44:54 2017 -0500
+
+    products updated on pillar
+
+commit dd5418cc68790ed3b16927b55f61f3effb7f130d
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 6 17:28:06 2017 -0500
+
+    links fixed from pillars
+
+commit 6ca6dfd365e366e86760bc71eff38f35d1e5f025
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 6 17:13:13 2017 -0500
+
+    nav bar fixed for pillars
+
+commit a2dd3fc81aca273d81ea8e628afcbdfecef45bda
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Apr 6 14:09:51 2017 -0500
+
+    sortable added
+
+commit 6c785225ae9cf6519a59ad15b9e06b71743093d5
+Author: Lencho2012 <angelm2012@gmail.com>
+Date:   Thu Apr 6 05:11:33 2017 -0500
+
+    new instances and product instances navbar dropdown links updated
+
+commit 5463063d97f9c6d5b81bd99a26a6f433bc163a25
+Author: Lencho2012 <angelm2012@gmail.com>
+Date:   Wed Apr 5 18:57:34 2017 -0500
+
+    iphone instnace converted to new format
+
+commit c5a82e9fbd9fa180ce6cde16892df4c0d35b778c
+Author: Lencho2012 <angelm2012@gmail.com>
+Date:   Wed Apr 5 18:00:28 2017 -0500
+
+    navbar dropdowns added
+
+commit ad944c65068bc3f9b03b27f32d39adefa4949f5b
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Wed Apr 5 17:50:19 2017 -0500
+
+    nav bar same for all front pages
+
+commit 42f85c5727ea1894d57fc9f91ee26d2d315a0815
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Wed Apr 5 17:19:43 2017 -0500
+
+    products, links added
+
+commit 03203bd0622885a2df8220d274586f10f549a29e
+Author: Lencho2012 <angelm2012@gmail.com>
+Date:   Wed Apr 5 16:29:14 2017 -0500
+
+    added jquery and navbar collapse
+
+commit c7c8e4b8c88f40ae1a781ad23b9a1d03abf6f484
+Author: Lencho2012 <angelm2012@gmail.com>
+Date:   Wed Apr 5 13:08:27 2017 -0500
+
+    added bootstrap and new product instances in progress
+
+commit 021114e2306058e7cac73a09852947c28daedf50
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Tue Apr 4 23:42:23 2017 -0500
+
+    categories links fixed
+
+commit 423af24231b3839fa25ea1dd1c7b7bb2b851f2ba
+Author: Mehlum <mehlum@Mehlums-MacBook-Pro.local>
+Date:   Tue Apr 4 22:44:09 2017 -0500
+
+    created new categories instances
+
+commit 28f81f83ed4faaf0ae50597eab75b80ee222b2cd
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Tue Apr 4 08:15:23 2017 -0500
+
+    more categories added
+
+commit 66aaf760efbd0a47f4232627da1336e6c0f9ea02
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Sun Apr 2 11:56:45 2017 -0500
+
+    new companies added
+
+commit 6d29e62ef4919c6a6ea051a9f0b66ae19c606124
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Mar 23 20:17:10 2017 -0500
+
+    log added
+
+commit 22b99c67f54996d7a9cd22544a097da133c73ffc
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Mar 23 17:55:36 2017 -0500
+
+    shah image
+
+commit 513c3db6e4ceb9c8bc3c8af144ec5147da377ba3
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Mar 23 17:41:58 2017 -0500
+
+    shahwaiz image fixed
+
+commit aee25658dc900b64de00f82f3f9cb1fdf97eefa7
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Mar 23 16:42:05 2017 -0500
+
+    about page stats added
+
+commit 51d9e589b1f936e1979c871d614dafeb1ad88d54
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Mar 23 15:36:50 2017 -0500
+
+    nav bar links
+
+commit 96224603c243174760b3e858fd1c8758aee0fb9a
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Mar 23 15:33:59 2017 -0500
+
+    fixed home link in products instances nav bars
+
+commit dac0bc219642dc99d9b28550d8caf8071ba03030
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Mar 23 15:30:06 2017 -0500
+
+    changed lists to tables
+
+commit 79aedc1806037620198e5a358585438189edb79e
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Mar 23 15:16:11 2017 -0500
+
+    added table headers for product instances
+
+commit 597d0b61dccc49c933b4a7dd854f54f905ce6458
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Mar 23 15:04:43 2017 -0500
+
+    hp css file changed
+
+commit 10c77602e30e036e293b6b73638eec4450a16b9f
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Thu Mar 23 15:02:07 2017 -0500
+
+    fixed images, removed nav bar
+
+commit c329053c8851ebd6c82756796a0dcfa786a1b4a7
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Thu Mar 23 10:32:07 2017 -0500
+
+    directories made
+
+commit 96ec8b454effc992227e8046328c9728162c096a
+Merge: 4833913 5a0e02f
+Author: Mehlum <mehlum@wireless-10-146-169-249.public.utexas.edu>
+Date:   Wed Mar 22 20:42:46 2017 -0500
+
+    created new categories instance, updated old
+
+commit 4833913e74bf5bd624cf29be44eced39da49f667
+Merge: 787ae54 682ab93
+Author: Mehlum <mehlum@wireless-10-146-169-249.public.utexas.edu>
+Date:   Wed Mar 22 20:41:51 2017 -0500
+
+    Merge branch 'dev' of https://github.com/shahwaiz14/cs329e-idb
+
+commit 5a0e02f2b1324793bc087894139eede2da3c1182
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 19:47:49 2017 -0500
+
+    fixed nav bar links for product pages
+
+commit 1ab2d82f35a1cb1f014c934cd1a6d924fb8ad5bb
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 19:40:39 2017 -0500
+
+    Add files via upload
+
+commit 82fbf69de7ce83985af6c2aab2c71f0d0b40e459
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 19:39:04 2017 -0500
+
+    Add files via upload
+
+commit aed5aa339d193f1d6facff52636fcaf69b48ebd7
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 19:37:40 2017 -0500
+
+    Added company css file
+
+commit 787ae547a68b2172063f25058624650ed2aa2660
+Author: Mehlum <mehlum@wireless-10-147-226-14.public.utexas.edu>
+Date:   Wed Mar 22 19:09:02 2017 -0500
+
+    Mehlum first commit, adding instances/testing
+
+commit 682ab939ac5f2663ab023ba14ec78e8cc941d6db
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 18:49:09 2017 -0500
+
+    added new css file
+
+commit 033fd65ae640a6347b58f3bcaebe82df41eb8367
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 18:31:00 2017 -0500
+
+    fixed nav bar links
+
+commit ab0951f7d015728a2a3b9988c465db8f1beaa93d
+Author: Shaomik Sarkar <shaomikraad@yahoo.com>
+Date:   Wed Mar 22 18:10:21 2017 -0500
+
+    Created Brand Instances
+
+commit 9c174ba13a9c5f3735e7fc4cdc912a868c66c6f2
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 18:06:54 2017 -0500
+
+    added member pics folder for bio
+
+commit fd93fdd2786bf4c4559fff4f9d91ab6bde32df32
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 18:00:27 2017 -0500
+
+    file mixup - fixed
+
+commit 64d82238079438a14a366f2fb873b54730706981
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 17:58:50 2017 -0500
+
+    added hp instance and specs
+
+commit 7908a8742d8aa68f75b813d5422648e2b052eb88
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 17:57:04 2017 -0500
+
+    added hp laptop instance page with specs
+
+commit 8d6457241f8f64b6430edc02878daaa9635da8e4
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 10:50:41 2017 -0500
+
+    samsung instance product details added
+
+commit ab26ce7cb84a67bb71faa965b753c2f6b35c1a3b
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Wed Mar 22 10:10:10 2017 -0500
+
+    updated folder structures and added samsung page instance
+
+commit d9297375b1b86c506f97e0e9ab03068bc386556f
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Tue Mar 21 17:46:24 2017 -0500
+
+    working on folder structure
+
+commit 93ad0d86158e59b8caf2a0f5e33a51027b8d07e0
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Tue Mar 21 17:17:14 2017 -0500
+
+    added images, css and macbook page
+
+commit 406e738ff70a7f16256503237149614e03c66076
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Tue Mar 21 14:47:42 2017 -0500
+
+    css
+
+commit 1599a4b89e9ee3c893b91d11b61b07fe85d66b1f
+Merge: f11db7b b8985b1
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Mon Mar 20 22:21:37 2017 -0500
+
+    Merge branch 'dev'
+
+commit b8985b1b695989541e21001d2a52afadd386c6e6
+Author: Shahwaiz panjwani <Shahwaiz panjwani>
+Date:   Mon Mar 20 22:12:55 2017 -0500
+
+    first commit
+
+commit f11db7bc336cc1eb786e0462a1cf8fc8211f2b00
+Author: Angel Martinez <angelm2012@gmail.com>
+Date:   Tue Mar 14 12:39:22 2017 -0500
+
+    Added link for site map
+    
+    Currently set for all access to everyone on the web.
+
+commit 57bccd0f0c6713154642f2d3bda0c26050bc0161
+Author: shahwaiz14 <shahwaiz14@hotmail.com>
+Date:   Mon Mar 13 11:40:42 2017 -0500
+
+    Update CNAME
+
+commit b67138349adde263c7b33b372e593a6b60df4ee8
+Author: shahwaiz14 <shahwaiz14@hotmail.com>
+Date:   Mon Mar 13 11:39:57 2017 -0500
+
+    Update CNAME
+
+commit f0ca64099f470c95a7a2c0eff535768f35c3995e
+Author: shahwaiz14 <shahwaiz14@hotmail.com>
+Date:   Mon Mar 13 10:30:05 2017 -0500
+
+    Create CNAME
+
+commit 6eea96dd1d37154862b3ecc421cffc29ff501678
+Author: shahwaiz14 <shahwaiz14@hotmail.com>
+Date:   Mon Mar 13 10:29:42 2017 -0500
+
+    Initial commit
