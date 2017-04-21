@@ -45,10 +45,17 @@ def lg():
 def microsoft():
         return render_template('microsoft.html')
         
+#categories
+        
 
-@app.route('/categories')
+@app.route('/categories.html')
 def categories():
         return render_template('categories.html')
+
+
+@app.route('/categories.html')
+def cTest():
+        return render_template('/categories.html')
 
 @app.route('/TVHomeTheater')
 def TVHomeTheater():
@@ -109,8 +116,8 @@ def xboxones():
 
         
 if __name__ == '__main__':
-        app.run('127.0.0.1', '80')
-	#app.run('174.138.78.41', '80') # Run application
+        #app.run('127.0.0.1', '5000')
+		app.run('174.138.78.41', '80') # Run application
 
 
 ##@app.route('/brands.html')
